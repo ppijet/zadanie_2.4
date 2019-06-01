@@ -1,0 +1,38 @@
+[class^="btn-"] {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 15px 30px;
+    min-width: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: inherit;
+    border: 2px solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: 0.4s;
+}
+
+.btn-purple {
+    border-color: #8e44ad;
+    color: #8e44ad;
+    background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
+}
+
+.btn-yellow {
+    border-color: #f1c40f;
+    color: #f1c40f;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+}
+
+.btn-blue {
+    border-color: #3498db;
+    color: #3498db;
+    background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+}
+
+[class^="btn-"]:hover {
+    background-position: 0 100%;
+    color: #ffffff;
+}
